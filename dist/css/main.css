@@ -1,12 +1,13 @@
 :root {
-  --main-color: #00bfd8;
-  --head-color: #393939;
-  --text-color: #626262;
+  --main-color: #63a981;
+  --head-color: #63a981;
+  --text-color: #ffffff;
 }
 body {
   font: 400 0.875rem/1.375rem "Raleway", sans-serif;
   color: var(--text-color);
   position: relative;
+  background-color: #000000;
 }
 h1,
 h2,
@@ -311,6 +312,7 @@ section {
   opacity: 1;
 }
 .form .form-group .label-control {
+  color: #000000;
   position: absolute;
   left: 1rem;
   top: 0.8rem;
@@ -483,7 +485,7 @@ section {
   background-color: #00a7ac;
 }
 .navbar.scroll {
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   -webkit-box-shadow: 0px 0px 5px var(--main-color);
   box-shadow: 0px 0px 5px var(--main-color);
   padding: 0.7rem 0;
@@ -595,11 +597,15 @@ section {
 }
 .trusted-by .swiper-container {
   width: auto;
-  background-color: #f7fcfd;
+  background-color: #000000;
   padding: 20px 10px;
   text-align: center;
   margin-top: 30px;
 }
+.card{
+  background-color: rgb(39, 39, 39);
+}
+
 .services .card {
   max-width: 21rem;
   padding: 3rem 2rem;
@@ -729,7 +735,7 @@ section {
   transform: rotate(45deg) translate(45px, -10px);
 }
 .request {
-  background-color: #f9fafc;
+  background-color: #000000;
 }
 @media (min-width: 1200px) {
   .request .text-container {
@@ -867,7 +873,7 @@ section {
   background-color: #00a7ac;
 }
 .contact {
-  background: url(../image/contact-background.jpg) no-repeat center;
+  background-color: black;
   background-size: cover;
 }
 .contact .head-section .p-heading {
