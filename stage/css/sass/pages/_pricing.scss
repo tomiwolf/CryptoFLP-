@@ -1,0 +1,76 @@
+.pricing {
+    .card {
+        margin-bottom: 2rem !important;
+        width: 20rem;
+        padding: 2.5rem;
+        border-radius: .5rem;
+        // Card Head Styled
+        .card-head {
+            margin-bottom: 1.75rem;
+            .card-title{
+                margin-bottom: 10px;
+            }
+        }
+        // Card Price Styled 
+        .card-price {
+            border: {
+                style: solid;
+                color:  transparent;
+                top-color: inherit;
+                bottom-color: inherit;
+                width: 1px
+            };
+            padding: 1rem 0;    
+            .price {
+                .currency {
+                    font-size: 1.5rem;
+                    vertical-align: 56%;
+                }
+                .value {
+                    font-size: 3.5rem;
+                    line-height: 4rem;
+                }
+            }
+        }
+        // Card Body Styled
+        .card-body {
+            padding: 2rem 0 0;
+            .list {
+                .list-item {
+                    padding: {
+                        top: .5rem;
+                        bottom: .5rem;
+                    };
+                    .fa-check {
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+        // Crad Button Style
+        .btn {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 50%);
+            &:hover {
+                background-color: #fff;
+            }
+        }
+        // Crad Label Styled
+        .label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 10rem;
+            height: 10rem;
+            overflow: hidden;
+            .best-value {
+                background-color: $mainColor;
+                color: #fff;
+                padding: .3rem 0;
+                transform: rotate(45deg) translate(45px, -10px);
+            }
+        }
+    }
+}

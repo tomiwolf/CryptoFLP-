@@ -1,0 +1,49 @@
+section.testimonials.text-center#testimonials
+    .container
+        //- Start Row
+        .row
+            //- Start Col
+            .col-lg-6
+                .image-container
+                    img(src="image/testimonials-2-men-talking.svg", alt="testimonials-2-men-talking")
+
+            //- Start Col
+            .col-lg-6
+                .info-container
+                    .head-section
+                        h2.font-weight-bold.head-color.text-capitalize testimonials
+                    .carousel-page 
+                        div(id="curousel-toggle" class="carousel slide" data-ride="carousel")
+                            .carousel-inner
+                                //- Start Carousel Item
+                                .carousel-item(class='active')
+                                    .card
+                                        .image
+                                            img(src="image/testimonial-1.svg", alt="testimonial-1").img-fluid
+                                        .card-body
+                                            p.testimonials-info I just finished my trial period and was so amazed with the support and results that I purchased Evolo right away at the special price.
+                                            h6.font-weight-bold.testimonials-author Jude Thorn - Designer
+                                //- Start Carousel Item
+                                .carousel-item
+                                    .card
+                                        .image
+                                            img(src="image/testimonial-2.svg", alt="testimonial-1").img-fluid
+                                        .card-body
+                                            p.testimonials-info I just finished my trial period and was so amazed with the support and results that I purchased Evolo right away at the special price.
+                                            h6.font-weight-bold.testimonials-author Jude Thorn - Designer
+                                //- Start Carousel Item
+                                .carousel-item
+                                    .card
+                                        .image
+                                            img(src="image/testimonial-3.svg", alt="testimonial-1").img-fluid
+                                        .card-body
+                                            p.testimonials-info I just finished my trial period and was so amazed with the support and results that I purchased Evolo right away at the special price.
+                                            h6.font-weight-bold.testimonials-author Jude Thorn - Designer
+                            
+                            a(class="carousel-control-prev" href="#curousel-toggle" role="button" data-slide="prev")
+                                span.sr-only Previous
+                                i.fas.fa-angle-left.carsourel-icon
+                        
+                            a(class="carousel-control-next" href="#curousel-toggle" role="button" data-slide="next")
+                                span.sr-only Next
+                                i.fas.fa-angle-right.carsourel-icon

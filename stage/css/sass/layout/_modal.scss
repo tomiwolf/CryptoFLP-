@@ -1,0 +1,91 @@
+.mfb-container {
+    @extend %modal-style;
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        .modal-body {
+            transform: translateY(0) perspective(37.5rem) rotateX(0);
+        }
+    }
+    .hide {
+        @extend %hide-modal;
+    }
+    .modal-body {
+        background-color: #fff;
+        border-radius: .25rem;
+        position: relative;
+        z-index: 2;
+        margin: {
+            right: auto;
+            left: auto;
+            top: 3rem;
+        };
+        transition: .3s;
+        transform: translateY(-1.25rem) perspective(37.5rem) rotateX(10deg);
+        @media (min-width: 992px) {
+            max-width: 62.5rem;
+            padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+        }
+        .exit {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: transparent;
+            border: none;
+            padding: 10px;
+            font-size: 2rem;
+            color: #707984;
+            outline: none;
+        }
+        .image-container {
+            margin: {
+                right: 2rem;
+                left: .5rem;
+                top: 2rem;
+                bottom: 2rem;
+            };
+        }
+        .content {
+            .title {
+                color: $headColor;
+                font: {
+                    size: 1.75rem;
+                };
+                line-height: 2rem;
+                &::after {
+                    content: '';
+                    display: block;
+                    background-color: $mainColor;
+                    height: 2px;
+                    width: 2.5rem;
+                    margin: {
+                        top: .5rem;
+                        bottom: 1.25rem
+                    };
+                }
+            }
+            .sub-title {
+                color: $headColor;
+                font: 700 1.125rem/1.625rem "Raleway", sans-serif;
+            }
+            .text {
+                color: $textColor;
+                font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+            }
+            .list-media {
+                .media {
+                    margin-bottom: .25rem;
+                    i {
+                        margin-right: .75rem;
+                        transform: translateY(4px);
+                    }
+                }
+            }
+            .btn:last-of-type {
+                background-color: transparent;
+                color: $mainColor;
+                margin-left: .25rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.request {
+    background-color: #f9fafc;
+    // Text Container Styled 
+    .text-container {
+        @media (min-width: 1200px) {
+            margin: {
+                left: 1.5rem;
+                right: 6rem;
+            };
+        }
+        .head-section {
+            margin-bottom: 0;
+            .title {
+                margin-bottom: 1.25rem;
+            }
+        }
+    }
+}

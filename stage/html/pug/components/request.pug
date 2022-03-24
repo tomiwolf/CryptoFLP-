@@ -1,0 +1,54 @@
+section.request#request
+    .container
+        .row
+            //- Grid text
+            .col-lg-6
+                .text-container
+                    .head-section
+                        h2.font-weight-bold.head-color.title Fill The Following Form To Request A Meeting
+                        p.mb-3 Evolo is one of the easiest and feature packed marketing automation apps in the market. Discover what it can do for your business organization right away.
+                    ul.list-unstyled.list
+                        li.list-item.pb-1
+                            i.fas.fa-check.main-color.pr-2
+                            span.font-weight-bold Automate your marketing
+                            |  activities and get results today
+                        li.list-item.pb-1
+                            i.fas.fa-check.main-color.pr-2
+                            span.font-weight-bold Interact with all your 
+                            |  targeted customers at a personal level
+                        li.list-item.pb-1
+                            i.fas.fa-check.main-color.pr-2
+                            span.font-weight-bold Convince them to buy
+                            |  your company's awesome products
+                        li.list-item.pb-1
+                            i.fas.fa-check.main-color.pr-2
+                            span.font-weight-bold Save precious time
+                            |  and invest it where you need it the most
+
+            //- Grid Form Request
+            .col-lg-6
+                .form-request
+                    form(action="#", method="post").form
+                        .form-group.text-capitalize
+                            input(type="text" name='rname').input-control
+                            label(for="rname").label-control full name
+                        .form-group.text-capitalize
+                            input(type="email" name='email').input-control
+                            label(for="email").label-control email
+                        .form-group.text-capitalize
+                            input(type="text" name='phone').input-control
+                            label(for="phone").label-control phone
+                        .form-group.text-capitalize
+                            select.select-control(required)
+                                option(value="" selected disabled).select-option interested in...
+                                option(value="personal").select-option Starter
+                                option(value="car").select-option Medium
+                                option(value="house").select-option Complete
+                        .form-group.checkbox
+                            input(type="checkbox", id="check").checkbox-control.mr-1
+                            |  I agree with Evolo's stated
+                            a(href="#") Privacy Policy
+                            | and
+                            a(href="#") Terms & Conditions
+                        .form-group.form-btn.text-uppercase
+                            button(type="submit").btn request 

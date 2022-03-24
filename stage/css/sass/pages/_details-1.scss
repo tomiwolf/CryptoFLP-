@@ -1,0 +1,18 @@
+.details-1 {
+    .text-container {
+        @media (min-width: 1200px) {
+            margin-top: 6rem;
+            margin-right: 4rem;
+            margin-left: 1rem;
+        }
+        @media (min-width: 992px) {
+            margin-top: 3rem;
+            margin-bottom: 0;
+        }
+        margin-bottom: 4rem;
+        h2 {
+            font-size: 2.25rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+}

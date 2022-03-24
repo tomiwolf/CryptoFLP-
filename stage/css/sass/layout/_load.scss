@@ -1,0 +1,19 @@
+.load {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    .icon-load {
+        width: 100px;
+        height: 100px;
+        border: 8px solid $mainColor;
+        border-left-color: transparent;
+        border-bottom-style: dotted;
+        border-radius: 50%;
+        animation: load 1.3s infinite linear forwards;
+    }
+}

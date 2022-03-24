@@ -1,0 +1,41 @@
+.team {
+    .team-member {
+        max-width: 12.5rem;
+        margin: {
+            left: auto;
+            right: auto;
+            bottom: 3rem;
+        };
+        // Start Style team Image
+        .team-image {
+            overflow: hidden;
+            border-radius: 50%;
+            margin-bottom: 2rem;
+            img {
+                transition: .3s;
+            }
+            &:hover img {
+                transform: scale(1.1);
+            }
+        }
+        // Start Style Team Info
+        .team-info {
+            .social-icon {
+                i {
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    border-radius: 50%;
+                    background-color: $mainColor;
+                    color: #fff;
+                    margin-right: 5px;
+                    margin-left: 5px;
+                    transition: .3s;
+                    &:hover {
+                        background-color: #00A7AC;
+                    }
+                }
+            }
+        }
+    }
+}

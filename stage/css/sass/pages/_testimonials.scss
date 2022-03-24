@@ -1,0 +1,42 @@
+.testimonials {
+    background: url(../image/testimonials-background.jpg) no-repeat center;
+    background-size: cover;
+    padding: {
+        top: 7.5rem;
+        bottom: 7rem;
+    };
+    // Info Container Styled
+    .info-container {
+        .head-section {
+            margin-bottom: 2.5rem;
+        }
+        .carousel-inner {
+            width: 24.375rem;
+            margin: {
+                left: auto;
+                right: auto;
+            };
+            .carousel-item {
+                .card {
+                    background-color: transparent;
+                    border: none;
+                    .image {
+                        width: 7rem;
+                        height: 7rem;
+                        margin: {
+                            left: auto;
+                            right: auto;
+                        };
+                        border-radius: 50%;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+    // Styled previous and Next Button
+    .carsourel-icon {
+        color: $textColor;
+        font-size: 2rem;
+    }
+}

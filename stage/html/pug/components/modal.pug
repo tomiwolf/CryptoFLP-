@@ -1,0 +1,28 @@
+.mfb-container(id='mfb-Container')
+    .hide(data-target="#mfb-Container")
+    .modal-body
+        .container
+            .row
+                .col-lg-8
+                    .image-container
+                        img(src='' alt="Details").img-fluid   
+                .col-lg-4
+                    .content
+                        //- Title
+                        h3.title Design And Plan
+                        //- SubTitle
+                        h5.sub-title  Core feature
+                        //- Pargraph
+                        p.text The emailing module basically will speed up your email marketing operations while offering more subscriber control.
+                        p.text Do you need to build lists for your email campaigns? It just got easier with Evolo.
+                        ul.list-media.list-unstyled 
+                            -var media = ['List building framework', 'Easy database browsing', 'User administration', 'Automate user signup', 'Quick formatting tools', 'Fast email checking']
+                            each item in media
+                                li.media
+                                    i.fas.fa-check.main-color
+                                    =item 
+                        .buttons-group.text-uppercase 
+                            a(href='#request' data-target="#mfb-Container").btn request 
+                            a(href='#' data-target="#mfb-Container").btn.close-modal back
+            button.exit(data-target="#mfb-Container") ×
+

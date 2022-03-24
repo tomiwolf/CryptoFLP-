@@ -1,0 +1,32 @@
+{
+  "name": "ultimate",
+  "version": "1.0.0",
+  "description": "project gulp course",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ali elgamil",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-zip": "^5.0.1",
+    "install": "^0.13.0",
+    "npm": "^6.13.7"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
+    "jslint": "^0.12.1",
+    "pug": "^3.0.0",
+    "swiper": "^6.4.5"
+  }
+}

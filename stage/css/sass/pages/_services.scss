@@ -1,0 +1,25 @@
+// Start Section Services 
+.services {
+    .card {
+        max-width: 21rem;
+        padding: 3rem 2rem;
+        margin: 0;
+        border-color: #c4d8dc;
+        border-radius: .5rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+        .icon {
+            width: 6rem;
+            height: 6rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+    }
+}
+// End Section Service

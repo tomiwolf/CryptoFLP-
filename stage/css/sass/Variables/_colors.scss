@@ -1,0 +1,9 @@
+:root {
+    --main-color: #00bfd8;
+    --head-color: #393939;
+    --text-color: #626262;
+}
+
+$mainColor: var(--main-color);
+$headColor: var(--head-color);
+$textColor: var(--text-color);

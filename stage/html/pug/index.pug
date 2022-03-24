@@ -1,0 +1,78 @@
+- var pageTitle = 'Evolo'
+<!DOCTYPE html>
+html(lang="en")
+    head
+        <!-- meta tags -->
+        include layout/meta
+        title #{pageTitle}
+        <!-- css file -->
+        include layout/style
+        block file-css
+            link(rel="stylesheet", href="css/main.css")
+    body
+
+        //- Start Modal
+        include components/modal
+        include components/video-modal
+        //- End Modal
+
+        //- Start load
+        include components/load 
+        //- End Load
+        
+        //- Start navbar
+        include components/navbar
+        //- End navbar
+
+        //- Start Header
+        include components/header
+        //- End Header
+
+        //- Start Section trusted By
+        include components/trusted-by
+        //- End Section trusted By
+
+        //- Start Section Services
+        include components/services
+        //- End Section Services
+
+        //- Start Section Details 1 
+        include components/details-1
+        //- End Section Details 1
+
+        //- Start Section Details 2 
+        include components/details-2
+        //- End Section Details 2
+
+        //- Start Section Pricing
+        include components/pricing
+        //- End Section Pricing
+
+        //- Start Section Request
+        include components/request
+        //- End Section Request
+
+        //- Start Section Video Check
+        include components/video
+        //- End Section Video Check
+
+        //- Start Section Testimonial
+        include components/testimonials
+        //- End Section Testimonail
+
+        //- Start Section Team
+        include components/team
+        //- End Section Team
+
+        //- Start Section Contact Us
+        include components/contact
+        //- End Section Contact Us
+
+        //- Start Footer
+        include components/footer
+        //- End Footer
+        <!-- file js -->
+        include layout/script
+        block file-js
+            script(src="js/main.js")
+
