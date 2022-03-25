@@ -20,7 +20,7 @@ section {
 }
 @media (min-width: 992px) {
   .header {
-    background: url(../image/header-background.jpg) no-repeat center center;
+    /* background: url(../image/header-background.jpg) no-repeat center center; */
     background-size: cover;
   }
 }
@@ -809,7 +809,7 @@ section {
   animation: pluse-border 1.5s ease-in-out infinite;
 }
 .testimonials {
-  background: url(../image/testimonials-background.jpg) no-repeat center;
+  /* background: url(../image/testimonials-background.jpg) no-repeat center; */
   background-size: cover;
   padding-top: 7.5rem;
   padding-bottom: 7rem;
